@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Síragon Bookmark is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	Síragon Bookmark is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with Síragon AOSU. If not, see <http://www.gnu.org/licenses/>.
+
+	Original Author: Síragon I&D <desarrollo03@siragon.com.ve>
+
+	Developers: <Please add your email here>
+	Contributor: <Please add your email here>
+	Translators: <Please add your email here>
+
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.siragon.bookmark"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="MainActivity"
+                  android:label="@string/app_name"
+				  android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
