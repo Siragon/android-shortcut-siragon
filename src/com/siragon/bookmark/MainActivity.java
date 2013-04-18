@@ -10,7 +10,7 @@
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with Síragon AOSU. If not, see <http://www.gnu.org/licenses/>.
+	along with Síragon Bookmark. If not, see <http://www.gnu.org/licenses/>.
 
 	Original Author: Síragon I&D <desarrollo03@siragon.com.ve>
 

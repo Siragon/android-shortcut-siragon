@@ -18,10 +18,28 @@ License
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with Síragon AOSU. If not, see <http://www.gnu.org/licenses/>.
+	along with Síragon Bookmark. If not, see <http://www.gnu.org/licenses/>.
 
 	Original Author: Síragon I&D <desarrollo03@siragon.com.ve>
 
 	Developers: <Please add your email here>
 	Contributor: <Please add your email here>
 	Translators: <Please add your email here>
+
+	
+
+How make an app like this
+=========================
+
+**On Windows**
+Get the Android SDK http://developer.android.com/sdk/index.html
+Get The Apache Ant™ http://ant.apache.org/bindownload.cgi
+
+```bash
+mkdir %ProgramFiles32%/apache/ant
+set PATH=PATH;%ProgramFiles32%/android/tools/;%ProgramFiles32%/android/plataform-tools/;%ProgramFiles32%/apache/ant
+set JAVA_HOME=%ProgramFiles32%/java/jdk#.#.#_##
+android create project --target 1 --name Siragon --path <path> --activity MainActivity --package com.siragon.bookmark
+ant debug
+adb install -r bin\Siragon-debug.apk
+```
