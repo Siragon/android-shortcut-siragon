@@ -26,7 +26,6 @@ License
 	Contributor: <Please add your email here>
 	Translators: <Please add your email here>
 
-	
 
 Building
 ========
