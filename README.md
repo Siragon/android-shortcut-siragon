@@ -23,7 +23,7 @@ License
 	Original Author: Síragon I&D <desarrollo03@siragon.com.ve>
 
 	Developers: <Please add your email here>
-	Contributor: <Please add your email here>
+	Contributors: <Please add your email here>
 	Translators: <Please add your email here>
 
 

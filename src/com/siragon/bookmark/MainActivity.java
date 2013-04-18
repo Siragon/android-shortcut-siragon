@@ -15,7 +15,7 @@
 	Original Author: Síragon I&D <desarrollo03@siragon.com.ve>
 
 	Developers: <Please add your email here>
-	Contributor: <Please add your email here>
+	Contributors: <Please add your email here>
 	Translators: <Please add your email here>
 */
 
@@ -37,4 +37,5 @@ public class MainActivity extends Activity
 		finish();
         System.exit(0);
     }
+	private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnLrNL86jqKuGncwX1WVC+0AnmlPVN9g5m2XRb9PgGICeziS2+X8bafZ98kCPRkpCQGONrWpZlWNd6T7osU+ee+eJ1CVN8lv1WdGjDYhZh1fgWaPE7d7EA745oqNRokVxpEPTwiOtZ+xb//8bw22WuhVbEjSU01mEunc1WniKYRA/ysU+QNT3LScdU7us0d8FeZnGKD7TP18Ca7lobZfl1HPz4LOblRVoKAykjWH6Euud2p056btdWEul9EO1Sq5WIE94kOdIRlm8KsmiIQvmGJ7K1co6NRmZHht4rYkDKDWFsyqbo+wRXLkV690cYjdfvfnfr3hYjf1PtKKfluFYaQIDAQAB";
 }

@@ -16,7 +16,7 @@
 	Original Author: Síragon I&D <desarrollo03@siragon.com.ve>
 
 	Developers: <Please add your email here>
-	Contributor: <Please add your email here>
+	Contributors: <Please add your email here>
 	Translators: <Please add your email here>
 
 -->
@@ -34,4 +34,6 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
 </manifest>
