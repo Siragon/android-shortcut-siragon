@@ -28,18 +28,20 @@ License
 
 	
 
-How make an app like this
-=========================
+Building
+========
 
 **On Windows**
 Get the Android SDK http://developer.android.com/sdk/index.html
-Get The Apache Ant™ http://ant.apache.org/bindownload.cgi
+Get the Apache Ant™ http://ant.apache.org/bindownload.cgi
+Get the GitHub http://windows.github.com/
 
 ```bash
-mkdir %ProgramFiles32%/apache/ant
-set PATH=PATH;%ProgramFiles32%/android/tools/;%ProgramFiles32%/android/plataform-tools/;%ProgramFiles32%/apache/ant
-set JAVA_HOME=%ProgramFiles32%/java/jdk#.#.#_##
-android create project --target 1 --name Siragon --path <path> --activity MainActivity --package com.siragon.bookmark
+mkdir %ProgramFiles32%\apache\ant
+set PATH=PATH;%ProgramFiles(x86)%\android\tools\;%ProgramFiles(x86)%\android\plataform-tools\;%ProgramFiles32%\apache\ant
+set JAVA_HOME=%ProgramFiles(x86)%\java\jdk#.#.#_##
+rem android create project --target 1 --name Siragon --path <path> --activity MainActivity --package com.siragon.bookmark
+cd  %HOMEPATH%\Documents\GitHub\siragon-bookmark-android
 ant debug
 adb install -r bin\Siragon-debug.apk
 ```
