@@ -1,12 +1,5 @@
-Síragon Web Shortcut for Android
-============================
-
-Bookmark of the Web Site.
-
-
-License
-=======
-
+<?xml version="1.0" encoding="utf-8"?>
+<!--
 	Síragon Web Shortcut is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
 	the Free Software Foundation, either version 3 of the License, or
@@ -26,21 +19,16 @@ License
 	Contributors: Uclides Gil <desarrollo06@siragon.com.ve>
 	Translators: Fatma Youssef <fatma.youssef@globaltranslator.info>
 
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Síragon"
+    />
+</LinearLayout>
 
-Building
-========
-
-**On Windows**
-Get the Android SDK http://developer.android.com/sdk/index.html
-Get the Apache Ant™ http://ant.apache.org/bindownload.cgi
-Get the GitHub http://windows.github.com/
-
-```bash
-mkdir %ProgramFiles32%\apache\ant
-set PATH=PATH;%ProgramFiles(x86)%\android\tools\;%ProgramFiles(x86)%\android\plataform-tools\;%ProgramFiles32%\apache\ant
-set JAVA_HOME=%ProgramFiles(x86)%\java\jdk#.#.#_##
-rem android create project --target 1 --name Siragon --path <path> --activity MainActivity --package com.siragon.shortcut
-cd  %HOMEPATH%\Documents\GitHub\siragon-bookmark-android
-ant debug
-adb install -r bin\Siragon-debug.apk
-```
